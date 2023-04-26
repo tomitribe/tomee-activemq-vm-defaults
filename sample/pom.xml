@@ -69,16 +69,21 @@
         <configuration>
           <context>ROOT</context>
           <tomeeClassifier>plume</tomeeClassifier>
-
-          <!-- Uncomment the following to try offline mode, 
+          <libs>
+            <lib>org.tomitribe.defaults:defaults:1.0-SNAPSHOT</lib>
+          </libs>
+          <systemVariables>
+            <!-- Uncomment the following to try offline mode, 
                where you need to create all the resources 
                and containers yourself -->
 
-          <!-- <systemVariables>
-            <openejb.offline>true</openejb.offline>
-          </systemVariables> -->
+            <!--<openejb.offline>true</openejb.offline>-->
 
-          
+            <!-- Uncomment the following to see the new defaults -->
+            <openejb.provider.default>org.tomitribe.activemq-vm</openejb.provider.default>
+          </systemVariables>
+
+
         </configuration>
       </plugin>
     </plugins>
