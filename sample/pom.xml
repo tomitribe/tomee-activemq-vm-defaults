@@ -80,7 +80,7 @@
             <!--<openejb.offline>true</openejb.offline>-->
 
             <!-- Uncomment the following to see the new defaults -->
-            <openejb.provider.default>org.tomitribe.activemq-vm</openejb.provider.default>
+            <!-- <openejb.provider.default>org.tomitribe.activemq-vm</openejb.provider.default> -->
           </systemVariables>
 
 
